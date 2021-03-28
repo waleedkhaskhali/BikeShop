@@ -1,0 +1,21 @@
+.adill {
+  position: relative;
+  top: 200px;
+  max-width: 800px;
+  height: 100vh;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  color: blueviolet;
+  margin: 0 auto;
+}
+
+.main {
+  background: url("https://i.pinimg.com/originals/16/0f/94/160f94562b92d78eb6c424f20a0c27f7.jpg")
+    no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
