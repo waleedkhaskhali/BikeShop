@@ -7,15 +7,25 @@
 
   align-items: center;
   flex-direction: column;
-  color: blueviolet;
+  color: white;
   margin: 0 auto;
 }
 
 .main {
-  background: url("https://i.pinimg.com/originals/16/0f/94/160f94562b92d78eb6c424f20a0c27f7.jpg")
+  background: url("https://cdn.shopify.com/s/files/1/0154/2741/files/DSCF6067-5_1400x.jpg?v=1603850197")
     no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.shop-button {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  background-color: deeppink;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 300px;
 }
