@@ -8,7 +8,7 @@ function Home() {
       <section className="main">
         <div className="adill">
           <h1 className="egg">KASKALI CUSTOMS </h1>
-          <p>samething</p>
+
           <Link className="shop-button" to="/Product">
             Shop Now
           </Link>
