@@ -1,7 +1,7 @@
 import "./product.css";
-import React from "react";
+import React, { Component } from "react";
 
-function Product() {
+export default function Product({ count, incrementItem, incrementItems }) {
   return (
     <div>
       <section className="product-container">
@@ -17,14 +17,12 @@ function Product() {
           <hr></hr>
           <h2 className="price-tag">29.99</h2>
           <p className="product-description">
-            Our New Limited Time Fixies available Now
+            Our New Limited Time Fixies available Now{count}
           </p>
-          <button>Add To Cart</button>
+          <button onClick={(incrementItem, incrementItems)}>Add To Cart</button>
         </div>
       </section>
       <footer></footer>
     </div>
   );
 }
-
-export default Product;
