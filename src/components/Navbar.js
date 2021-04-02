@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-function Navbar() {
+export default function Product({ count, setCount }) {
   const [navLinkOpen, navLinkToggle] = useState(false);
 
   const handleNavLinksToggle = () => {
@@ -31,7 +31,7 @@ function Navbar() {
           <h1 className="logo">KASKALI</h1>
           <ul className={renderClasses()}>
             <li className="nav-item">
-              <Link onClick={closeNav} to="/Home" className="nav-links">
+              <Link onClick={closeNav} to="/" className="nav-links">
                 Home
               </Link>
             </li>
@@ -42,7 +42,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link onClick={closeNav} to="/Cart" className="nav-links">
-                Cart
+                Cart {count}
               </Link>
             </li>
           </ul>
@@ -54,5 +54,3 @@ function Navbar() {
     </div>
   );
 }
-
-export default Navbar;
