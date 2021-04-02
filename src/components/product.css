@@ -12,7 +12,6 @@
   top: 200px;
   position: relative;
   width: 60%;
-  background-color: aqua;
 }
 .product {
   position: relative;
@@ -29,4 +28,6 @@ hr {
   margin: 10px;
   color: rgb(255, 2, 2);
   width: 335px;
+}
+@media screen and (max-width: 900px) {
 }
