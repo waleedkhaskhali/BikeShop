@@ -1,11 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Cart() {
-  return (
-    <div>
-      <h2>Cart Items</h2>
-    </div>
-  );
+export default function Cart({ counts }) {
+  return <div>{counts}</div>;
 }
-
-export default Cart;
